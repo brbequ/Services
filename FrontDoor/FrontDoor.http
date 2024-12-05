@@ -1,0 +1,6 @@
+@FrontDoor_HostAddress = http://localhost:5029
+
+GET {{FrontDoor_HostAddress}}/FrontDoor/books
+Accept: application/json
+
+###

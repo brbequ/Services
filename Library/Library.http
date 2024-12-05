@@ -1,0 +1,10 @@
+@Library_HostAddress = https://localhost:7283
+
+GET {{Library_HostAddress}}/library/
+Accept: application/json
+
+###
+
+GET {{Library_HostAddress}}/library
+
+###
